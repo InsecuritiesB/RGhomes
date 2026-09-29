@@ -147,7 +147,7 @@ footer{background:#171410;color:#F1EDE4;border-top:1px solid #332D1F}
 <script src="photos.js"></script>
 <script>
 (function(){
-  var slides=(window.RG_PHOTOS||[]).filter(function(x){return x.s}).map(function(x){return ["images/full/"+x.f,x.t]});
+  var slides=(window.RG_PHOTOS||[]).filter(function(x){return x.s}).map(function(x){return ["images"+x.f,x.t]});
   var show=document.getElementById("show"),dots=document.getElementById("dots"),i=0,timer;
   slides.forEach(function(s,n){
     var d=document.createElement("div");d.className="slide"+(n===0?" on":"");
