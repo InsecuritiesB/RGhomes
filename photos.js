@@ -1,10 +1,10 @@
 /* ============================================================
    R&G HOMES GH — PHOTO LIST
    To add a photo:
-   1. Upload the image into the  images/full  folder
+   1. Upload the image into the  images folder
    2. Add ONE new line below (copy an existing line and edit it)
 
-   f = file name inside images/full
+   f = file name inside images
    t = caption shown under the photo
    c = category key (must match a key in CATEGORIES below)
    s = true to ALSO show it in the homepage slideshow (optional)
